@@ -1,0 +1,15 @@
+
+.container-demo-selectors {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.translated-message, .buttons-wrapper {
+  margin-top: 8px;
+  text-align: center;
+}

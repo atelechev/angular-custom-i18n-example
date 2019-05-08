@@ -1,0 +1,6 @@
+{
+  "translations": {
+    "message": "Text in English",
+    "message-formatted": "Today's date is $1"
+  }
+}

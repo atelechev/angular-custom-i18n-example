@@ -1,0 +1,8 @@
+
+<button *ngFor="let lang of langs"
+        title="{{ getLanguageName(lang) }}"
+        (click)="useLanguage(lang)">
+  <img src="{{ getFlagFileName(lang) }}"
+        height="16"
+        alt="Language choice: {{ getLanguageName(lang) }}" />
+</button>
